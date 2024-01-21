@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.negro {
+    background-color: black;
+    color: wh;
+
+}
+
+.nav-item {
+    text-align: center;
+    margin: 5px;
+}
+
+.fixed-top-container {
+    position: fixed;
+    background-color: #000000;
+
+}
+
+.content {
+    margin-top: 100px;
+}
