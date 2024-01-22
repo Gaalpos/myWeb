@@ -15,14 +15,17 @@
 </head>
 
 <body>
-
-
     <div class="container">
 
         <header class="navbar navbar-expand-md navbar-dark d-flex flex-wrap  py-3 mb-4 border-bottom ">
-            <a class="navbar-brand" href="index.html"> <img src="assets/imgs/craneo.png"
-                    class="bd-placeholder-img rounded-circle" alt="logo" width="7%"> Gaalpos</a>
 
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/imgs/craneo.png" class="bd-placeholder-img rounded-circle" alt="Skull image "
+                    style="width: 50px; margin-right:1em;">
+                Gaalpos
+            </a>
+
+            <!-- This is not an empty button, its used when the navbar collapses -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +34,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                 <nav>
                     <ul class="navbar-nav nav-pills ">
-                        <p></p>
+                        <br>
                         <li class="nav-item"><a href="index.html" class="nav-link active">Home</a>
                         </li>
                         <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
@@ -48,13 +51,16 @@
                 <img class="bd-placeholder-img rounded-circle" width="140" height="140"
                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
                     preserveAspectRatio="xMidYMid slice" focusable="false" src="assets/imgs/profile.png">
-                <h1> Gaalpos</h1>
+                <h2>
+                    Gaalpos
+                </h2>
                 <p id="ubi">📍 Vigo, Spain</p>
                 <p>
                 <h4>🎵 Vibing to 🎵</h4>
                 <p></p>
                 <a href="https://open.spotify.com/user/gabripazos13/api?rainbow=true" target="_blank">
-                    <img src="https://novatorem-o0bz0najk-gaalpos.vercel.app/api/spotify" alt="Spotify" width="80%">
+                    <img src="https://novatorem-o0bz0najk-gaalpos.vercel.app/api/spotify" alt="Spotify widget"
+                        width="80%">
                 </a>
                 </p>
 
@@ -92,17 +98,16 @@
 
 
             <div class="col-sm-12 col-lg-8">
-                <h2> My projects</h2>
-                <p></p>
-                <div class="row">
-                    <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
+                <h1 style="padding-bottom: 1em;">My projects</h1>
+                <div class="row  ">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4" style="text-align: left;">
                         <h3>AutoGit</h3>
                         <p>A few Windows PowerShell scripts to sync your git repos on the easyiest way possible.</p>
                         <a href="https://github.com/Gaalpos/autoGit" target="_blank">
                             Github
                         </a>
                     </div>
-                    <div class="col col-sm-12 col-md-6 col-lg-6  col-xl-6 mb-4">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6  col-xl-6 mb-4" style="text-align: left;">
                         <h3>EasyNotes</h3>
                         <p>I still havent found the perfect app to organize all i want, so im developing my own. My
                             focus is to help me get trhough all i want to do, remember and keep track of.</p>
@@ -110,7 +115,7 @@
                             Github
                         </a>
                     </div>
-                    <div class="col col-sm-12 col-md-6 col-lg-6  col-xl-6 mb-4">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6  col-xl-6 mb-4" style="text-align: left;">
                         <h3>SimpleGameTracker</h3>
                         <p>App to track your gaming journey.</p>
                         <a href="https://github.com/Gaalpos/SimpleGameTracker" target="_blank">

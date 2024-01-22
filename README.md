@@ -1,42 +1,57 @@
-# NiceWeb
-Task T4.1 of interface development
+# Task T4.1 - Responsive web
 
-Partiendo de lo visto hasta el momento referente a UX, UI, accesibilidad e inclusividad crea una web sencilla para escritorio  y móvil (responsive) que siga dichos principios. 
+This is a responsive web made with Bootsrap and JS
 
+You can see the Figma mockup  [here](https://www.figma.com/file/AnU8UYQMIDdgaxrcn7gZfH/T4.1-Pazos%2C-Gabriel?type=design&node-id=0%3A1&mode=design&t=QzAojjQqgA4l60hs-1)
 
-REQUERIMIENTOS MÍNIMOS
-
-- [ ] Documento en Figma (crea un diseño nuevo, aunque puedes partir del ya realizado). 
-Asegúrate que las resoluciones son adecuadas para cada uno de las versiones
-- [ ] Barra de navegación en desktop. En móvil puedes usar menu hamburguesa 
-- [ ] Uso de imágenes (externas y/o locales a tu convenir)
-- [ ] No debe contener errores de accesibilidad (usa la extension wave.webaim de chrome o firefox en local para comprobarlo)
-https://wave.webaim.org/extension/
-- [ ] Debe usar al menos tres “leyes” de UX
-- [ ] Utiliza import y export de código js 
-- [ ] Utiliza al menos una función arrow =>
-- [ ] Utiliza al menos un objeto
-- [ ] Crea Navigation links. Utiliza <nav> (home, contact, about)
-
-GUÍA DE ESTILO 
-🚨ver archivo U3.1 Guía de estilo js🚨
-Debe seguirse la guía de estilo, pudiéndose restar hasta 15% por no adherirse a ella.
-
-ENTREGA
-
-- Un archivo .zip con el código necesario (e imágenes si son locales)
-- Un archivo Figma (compartiendo en modo edit). El nombre del archivo debe ser "T4.1 Apellido1Nombre"
-- Un documento de google creado en la tarea
-El documento créalo en la tarea, no lo incluyas en el zip. El código se puede también entregar con un enlace al repositorio de github o gitlab.
-
-En el documento google se explica el cómo y porqué lo has implementado atendiendo a los principios de UX,  accesibilidad y usabilidad. Máximo 5 folios contando capturas.
-Ejemplo: En la capturaX se observa la implementación de la ley de Hicks en el UI… 
-Por otra parte, atendiendo a WAI-ARIA se han creado A,B,C elementos, los cuales...
+Live web : https://gaalpos.github.io/niceWeb/
 
 
-NOTA
+- NavBar on desktob and hamburger menu for narrower screens.
+- Images on the "Setup" section
+- No accesibility errors (WAVE marks one empty button as an error. However it is needed for the navbar to collapse into an hamburger menu when needed) 
+- Export used in **elementos.js** to export the objects for **main.js** to import those objects and create the html needed
+- Arrow function used in **main.js** on const generarHTML
+- Objects are in  **elementos.js**
 
-Implementación = 60% (mitad escritorio y mitad móvil)
-Documentación = 20% 
-Figma = 15%
-Originalidad + Presentación = 5%
+
+##  Laws of UX used on this project
+
+### Aesthetic-Usability Effect
+- Users often perceive aesthetically pleasing design as design that’s more usable.
+
+My web is designed with simplicity on mind, without a huge variety of colors or elements. This helps overwhelm the user. 
+
+### Jakob’s Law
+- Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know.
+
+We have a few desing choices that follow this idea. Look at this image:
+
+![Image](assets/other/Screenshot_2.jpg)
+
+That's the header of the site, where the title,logo and navbar are located. 
+
+Most sites have their logo/name on the top left. If you click on that, you go the home page. It's the same way on my web. 
+
+Other elements like account, search or web sections are often in the right. It's true that in many sites the nav links are on the left, but as it's shown in the Samsung web, when collapsed, the hamburger menu with all the nav links goes to the side. In order to have consistency beteween desktop and mobile, I have the nav items on the right. This also helps to have a visual balance.
+
+![Image](assets/other/tw.jpg)
+
+![Image](assets/other/yt.jpg)
+
+![Image](assets/other/Screenshot_3.jpg)
+
+![Image](assets/other/Screenshot_1.jpg)
+
+### Law of Common Region
+- Elements tend to be perceived into groups if they are sharing an area with a clearly defined boundary.
+
+In the home page there are two areas well defined, even without using any type of additional elemtents to divide those areas.
+
+The one on the left is my profile. All elements are aligned to the middle, which makes you perceive them on the same group. 
+
+The area on the right has all my projects. The text alignment is to the left and has a title over them, so you know all of those elements are on the same group.
+
+
+
+![Image](assets/other/home.jpg)
