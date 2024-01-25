@@ -2,7 +2,7 @@
 
 My personal web were i can have everything I want. It's also my developer/personal blog :)
 
-Live web : https://gaalpos.github.io/niceWeb/
+Live web : https://gaalpos.github.io/myWeb/
 
 Original web rework and [here](https://github.com/Gaalpos/niceWeb)
 
