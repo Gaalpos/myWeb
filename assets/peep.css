@@ -1,0 +1,43 @@
+@import url(https://unpkg.com/css-peeps@1/css-peeps.compat.css);
+
+.peep {
+    align-items: center;
+    justify-content: center;
+    --peep-hat-color: #FC03C2;
+    --peep-hair-color: #7300E6;
+    --peep-skin-color: #87ceeb;
+    --peep-accessory-color: #00ff00;
+    --peep-facial-hair-color: #ffd700;
+    --peep-object-color: #ffa500;
+    --peep-clothes-color: #61177c;
+    background-color: rgb(75, 75, 75);
+    display: inline-block;
+
+    --peep-body-offset-x: -7px;
+    --peep-body-offset-y: 5px;
+
+    height: 200px;
+    width: 60%;
+    border-radius: 20px;
+
+
+}
+
+/* @import url(https://unpkg.com/css-peeps@1/css-peeps.compat.css);
+
+a {
+  --peep-hat-color: #FC03C2;
+  --peep-hair-color: #7300E6;
+  --peep-skin-color: #87ceeb;
+  --peep-accessory-color: #00ff00;
+  --peep-facial-hair-color: #ffd700;
+  --peep-object-color: #ffa500;
+  --peep-clothes-color: #a924db;
+
+  display: inline-block;
+  width: 425px;
+  height: 341px;
+  background: white;
+  border-radius: 10px;
+  border: 2px solid var(--peep-accessory-color);
+} */
