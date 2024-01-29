@@ -12,14 +12,11 @@
   --peep-clothes-color: #61177c;
   background-color: rgb(75, 75, 75);
   display: inline-block;
-
   --peep-body-offset-x: -7px;
   --peep-body-offset-y: 5px;
-
   height: 200px;
   width: 60%;
   border-radius: 20px;
-
 
 }
 
