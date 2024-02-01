@@ -15,8 +15,10 @@
   --peep-body-offset-x: -7px;
   --peep-body-offset-y: 5px;
   height: 200px;
-  width: 60%;
+  width: 200px;
   border-radius: 20px;
+  object-fit: cover;
+  overflow: hidden;
 
 }
 

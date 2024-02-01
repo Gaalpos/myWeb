@@ -1,0 +1,21 @@
+@import url(https://unpkg.com/css-peeps@1/css-peeps.compat.css);
+
+.peep2 {
+    --peep-hat-color: #FC03C2;
+    --peep-hair-color: #7300E6;
+    --peep-skin-color: #d9d7cc;
+    --peep-accessory-color: #00ff62;
+    --peep-facial-hair-color: #ffd700;
+    --peep-object-color: #ff8040;
+    --peep-clothes-color: #5800b0;
+
+
+    --peep-body-offset-x: -5px;
+    --peep-body-offset-y: 10px;
+
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: rgb(67, 67, 67);
+    border-radius: 50%;
+}
