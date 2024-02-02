@@ -54,3 +54,7 @@ body {
 .btn-outline-primary1 {
     color: aquamarine;
 }
+
+.btn {
+    margin: 3px;
+}
