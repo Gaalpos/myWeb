@@ -3,7 +3,7 @@ body {
     color: white;
 }
 
-z .card {
+.card {
     background-color: rgb(32, 32, 32);
     color: white;
     border-radius: 15px;
@@ -49,4 +49,8 @@ z .card {
 
 .projectsCard {
     padding: 5px;
+}
+
+.btn-outline-primary1 {
+    color: aquamarine;
 }
