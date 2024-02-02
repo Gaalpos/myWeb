@@ -38,8 +38,8 @@
                 <nav>
                     <ul class="navbar-nav nav-pills ">
                         <br>
-                        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a>
-                        </li>
+                        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="react.html" class="nav-link">React</a></li>
                         <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
                         <li class="nav-item"><a href="setup.html" class="nav-link">Setup</a></li>
                     </ul>
@@ -47,8 +47,7 @@
             </div>
         </header>
     </div>
-
-    <div class="container text-center">
+    <div class="container text-center  col-lg-8">
         <div class="row ">
             <div class="col-sm-12 col-lg-4">
                 <!-- <img class="bd-placeholder-img rounded-circle" width="140" height="140"
@@ -75,48 +74,48 @@
 
                 <p>
                 <div class=" row">
-                    <div class=" col "><a href="https://github.com/Gaalpos" target="_blank"> Github
-                        </a>
+                    <div class=" col ">
+                        <button type="button" class="btn botoncito"
+                            onclick="window.open('https://github.com/Gaalpos')">Github</button>
                     </div>
-                    <div class=" col"><a href=" https://www.linkedin.com/in/gabriel-pazos-3a4217230/" target="_blank">
-                            Linkedin
-                        </a>
+                    <div class=" col">
+                        <button type="button" class="btn botoncito"
+                            onclick="window.open('https://www.linkedin.com/in/gabriel-pazos-3a4217230/')">Linkedin</button>
                     </div>
 
-                    <div class="col "><a href="https://www.youtube.com/@Gaalpos" target="_blank">
-                            YouTube
-                        </a>
+                    <div class="col ">
+                        <button type="button" class="btn botoncito"
+                            onclick="window.open('https://www.youtube.com/@Gaalpos')">Youtube</button>
                     </div>
-                    <div class="col"> <a href="https://discord.com/invite/CWkeu323BG" target="_blank">
-                            Discord
-                        </a></div>
-                    <div class="col "><a href="https://open.spotify.com/user/gabripazos13" target="_blank"> Spotify
-                        </a></div>
-                    <div class="col "><a href="paypal.me/gaalpos" target="_blank"> Donate me
-                        </a></div>
-                    <p></p>
+
+                    <div class="col ">
+                        <button type="button" class="btn botoncito" id="myBtn">Email me!</button>
+                        <script src="assets/js/email.js"></script>
+                    </div>
                 </div>
                 </p>
-
-
             </div>
-
-
-            <div class="col-sm-12 col-lg-8">
-                <h1 style="padding-bottom: 1em;">My projects</h1>
-                <div class="row  ">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4" style="text-align: left;">
-                        <h3>AutoGit</h3>
-                        <p>A few Windows PowerShell scripts to sync your git repos on the easyiest way possible.</p>
-                        <a href="https://github.com/Gaalpos/autoGit" target="_blank">
-                            Github
-                        </a>
+            <div class="container text-center col-lg-8">
+                <h1>My projects</h1>
+                <div class="album py-5 text-start">
+                    <div class="row row-cols-12 row-cols-sm-12 row-cols-md- g-3" id="contenedor">
+                        <div class="col col-sm-12 col-md-6 col-lg-6">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h3>AutoGit</h3>
+                                    <p>A few Windows PowerShell scripts to sync your git repos on the easyiest way
+                                        possible.</p>
+                                    <a href="https://github.com/Gaalpos/autoGit" target="_blank">
+                                        Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 
 
 </body>

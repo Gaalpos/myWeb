@@ -9,6 +9,7 @@ body {
     background-color: rgb(32, 32, 32);
     color: white;
     border-radius: 15px;
+
     /* border: solid rgb(13, 110, 253); */
 
     /* 13, 110, 253 */
@@ -46,4 +47,37 @@ body {
 
 .navbar-item {
     vertical-align: middle;
+}
+
+.projectsCard {
+    padding: 5px;
+}
+
+.btn-outline-primary1 {
+    color: aquamarine;
+}
+
+.btn-outline-primary {
+    background-color: blueviolet;
+    /* Replace #yourColor with your desired color */
+    border-color: blueviolet;
+    /* Replace #yourColor with your desired color */
+}
+
+.btn-outline-primary:hover {
+    background-color: blueviolet;
+    /* Replace #yourHoverColor with your desired hover color */
+    border-color: blueviolet;
+    /* Replace #yourHoverColor with your desired hover color */
+}
+
+.botoncito {
+    margin: 5px;
+    background-color: rgb(13, 110, 253);
+    color: rgb(255, 255, 255);
+}
+
+.botoncito:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 86, 86);
 }
