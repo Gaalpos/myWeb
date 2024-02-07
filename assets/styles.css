@@ -58,3 +58,30 @@ body {
 .btn {
     margin: 3px;
 }
+
+.iframe {
+    width: 700px;
+    height: 800px;
+    transform: scale(0.7);
+    transform-origin: 0 0;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adjust as needed */
+}
+
+.iframe2 {
+    width: 700px;
+    height: 700px;
+    transform: scale(0.8);
+    transform-origin: 0 0;
+}
+
+.frame {
+    width: 100%;
+    background-color: #79797900;
+}
