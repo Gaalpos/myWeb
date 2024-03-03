@@ -1,7 +1,7 @@
 export const elementos = [
     {
         name: "Computer",
-        items: 'CPU: Intel i5 13600K</br> GPU: Asus TUF RTX 3070 OC</br> RAM: 32 Gb 3600mhz </br> Cooler: Noctua NH-D15 cromax black</br> PS: Corsair RM 850 Watts</br> Case: Corsair 4000D Airflow White</br> 5 Artic PWM 120mm fans</br>',
+        items: 'CPU: Intel i5 13600K</br> GPU: Asus TUF RTX 3070 OC</br> RAM: 32 Gb 3600mhz </br> Cooler: Noctua NH-D15 cromax black</br> PS: Corsair RM 850 Watts</br> Case: Corsair 4000D Airflow White</br> 5 Artic PWM 120mm fans',
         img: "pc.jpg"
     },
 
